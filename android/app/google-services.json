@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "673627954571",
+    "project_id": "foody-driver-app",
+    "storage_bucket": "foody-driver-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673627954571:android:4ffd18dc3118316cb2638e",
+        "android_client_info": {
+          "package_name": "org.foodyman.deliveryman"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXFXXHiVgMmlCCw_PzyCvpabpYj3Jkm7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
