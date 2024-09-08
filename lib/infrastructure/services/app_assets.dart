@@ -6,7 +6,7 @@ class AppAssets {
 
   /// png
   static const String pngSplash = '$_pngPath/splash.png';
-  static const String pngLogo = '$_pngPath/app_logo.png';
+  static const String pngLogo = '$_pngPath/ghozlan_logo.png';
   static const String pngLunch = '$_pngPath/lunch.png';
   static const String pngNoNotification = '$_pngPath/no_notification.png';
   static const String pngMyLocation = '$_pngPath/my_location.png';

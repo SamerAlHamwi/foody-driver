@@ -63,6 +63,13 @@ dev_dependencies:
   auto_route_generator: ^5.0.3
   flutter_launcher_icons: ^0.11.0
 
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: 'assets/image/ghozlan_logo.png'
+
+
 flutter:
   uses-material-design: true
   assets:
@@ -75,8 +82,3 @@ flutter_native_splash:
   android_12:
   fullscreen: true
 
-flutter_icons:
-  android: true
-  ios: true
-  remove_alpha_ios: true
-  image_path: 'assets/image/delivery.png'

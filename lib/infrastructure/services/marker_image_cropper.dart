@@ -23,7 +23,7 @@ class ImageCropperMarker {
   Future<File> imageToFile({String? imageName, String? ext}) async {
     var bytes = await rootBundle.load('assets/$imageName.$ext');
     String tempPath = (await getTemporaryDirectory()).path;
-    File file = File('$tempPath/app_logo.png');
+    File file = File('$tempPath/ghozlan_logo.png');
     await file.writeAsBytes(
         bytes.buffer.asUint8List(bytes.offsetInBytes, bytes.lengthInBytes));
     return file;
@@ -39,7 +39,7 @@ class ImageCropperMarker {
       await file.writeAsBytes(response.bodyBytes);
       return file;
     } catch (e) {
-      return await imageToFile(imageName: "image/app_logo", ext: "png");
+      return await imageToFile(imageName: "image/ghozlan_logo", ext: "png");
     }
   }
 
@@ -48,7 +48,7 @@ class ImageCropperMarker {
       int height,
       int width,
       ) async {
-    ByteData bytes = await rootBundle.load('assets/image/app_logo.png');
+    ByteData bytes = await rootBundle.load('assets/image/ghozlan_logo.png');
     final img.Image? baseSizeImage =
     img.decodeImage(data ?? bytes.buffer.asUint8List());
     final img.Image? newSizeImage = img.decodeImage(bytes.buffer.asUint8List());
